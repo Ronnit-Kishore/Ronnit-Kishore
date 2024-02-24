@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+
+.border{
+    border: 0.50px solid rgb(255, 255, 255);
+}
+
+
+
+.navbar{
+    height: 60px;
+    background-color: #2874f0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.nav-logo{
+    height: 40px;
+    width: 150px;
+    padding: 1px 8px 0px 6px;
+}
+
+
+.logo{
+    background-image: url("Flipcart-logo.png");
+    background-size: cover ;   
+    height: 40px;
+    width: 150px;
+}
+
+
+
+/* SEARCH BAR */
+
+
+.search-input{
+    height: 30px;
+    width: 400px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+.search-icon{
+    height: 30px;
+    width: 45px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2874f0;
+    background-color: white;
+    
+}
+
+
+
+
+.login-button{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    color: #2874f0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+
+.nav-sign{
+    font: 1rem;
+    font-weight: 700;
+}
+
+
+/* NAV SECOND */
+
+
+
+.nav-1{
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.nav-img{
+    margin-top: 5px;
+    height: 70px;
+    background-size: cover;
+}
+
+
+
+.nav-text{
+     margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/* NAVBAR TEXT */
+
+
+.nav-1-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.nav-1-text a {
+     text-align: center; 
+    text-decoration: none;
+    color: rgb(119, 110, 110);
+}
+
+
+/* SLIDE SHOW */
+
+
+.slide-hero{
+    height: 270px;
+}
+
+
+.hero-1{
+    background-image: url('HERO-1.jpg');
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* show case */
+
+.show-case-parent{
+    margin-top: 20px;
+    height: 390px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.show-case{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:25px 15px ;
+    height: 370px;
+   
+}
+
+
+.case-item{
+    height: 340px;
+    margin: 10PX 15px;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+
+ .show-case-img{
+    height: 180px;
+    margin: 30px 15px; 
+    
+ }   
+
+ 
+ .show-case-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+     }
+
+
+ .show-case-text a {
+    text-decoration: none;
+    text-align: center;
+    color:black;
+ }
+
+
+
+ .show-case-offer{
+    height: 355px;
+    display: flex;
+ }
+
+
+ .content-offer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+ }
+
+
+ .show-case-text h4 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: green;
+    text-decoration: none;
+ }
+
+
+ .show-case-text h5 {
+    font-size: .95rem;
+    font-weight: 500;
+    color: rgb(168, 161, 161);
+    text-decoration: none;
+ }
+
+ 
+ /* deal panel */
+
+.deal-panel{
+    height: 300px;
+    margin-top: 15px;
+    background-color: rgb(235, 237, 237);
+}
+
+
+
+.deal-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ margin-top: 10px;
+}
+
+
+.deal-panel-image{
+    height: 280px;
+    width: 400px;
+}
+
+
+/* FAISHON TRENDS PANEL */
+
+.faishion-trend-panel{
+    height: 300px;
+    margin-top: 10px;
+    display: inline;
+
+}
+
+
+
+.trend-content{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 25px;    
+ 
+}
+
+
+.ft-button{
+    height: 250px;
+    width: 250px;
+    
+  
+}
+
+
+.trend-button a{text-decoration: none;}
+
+
+.trend-content h2{
+    color: black;
+    font-size: 1.60rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+
+.trend-button{
+    height: 200px;
+    width: 200px;
+}
+
+.trend-button-system{
+    margin-top: 25px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: none;
+
+    color: white;
+    background-color: #2874f0;
+
+    font-size: 0.85;
+    font-weight: 600;
+
+    
+}
+
+
+
+.detail-system{
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.faishion-trends-detail a {
+    text-decoration: none;
+}
+
+
+.faishion-trends-detail p{
+    color: black;
+    font-size: 0.90rem;
+    font-weight: 600;
+    margin-top: 5px;
+   
+}
+
+.faishion-trends-detail h4{
+    font-size: 1rem;
+    font-weight: 500;
+    color: green;
+    margin-top: 5px;
+  
+}
+
+
+.faishion-trends-detail h5 {
+    font-size: 0.90rem;
+    font-weight: 500;  
+    color: rgb(168, 161, 161);
+    margin-top: 5px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+    height: 940px;
+    margin-top: 15px;    
+}
+
+.foot-div{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white; 
+    display: flex;
+     
+}
+
+.foot-span{
+    font-size: 0.90rem;
+    font-weight: 500;
+    color: rgb(168, 161, 161);
+}
+
+.foot-a{
+    font-size: 0.90rem;
+    font-weight: 600;
+    color: black;
+    
+}
+
+.foot-content{
+    padding-top: 10px;
+    font-size: 0.80rem;
+    font-weight: 600;
+    color: rgb(154, 148, 148);
+}
+
+
+/* SECOND PANEL */
+
+.foot-div-2{
+    display: flex;
+    margin-top: 20px;
+    height: 410px;
+    background-color: #172337;
+    justify-content: space-evenly;
+
+
+}
+
+
+ul{
+    margin-top: 20px;
+    justify-content: space-evenly;
+    
+}
+
+
+.foot-div-2 p {
+    color: rgb(168, 161, 161);
+    font-size: 0.90rem;
+}
+
+
+.foot-div-2 a{
+    padding-top: 5px;
+    margin-top: 10px;
+    font-size: 0.75rem;
+}
+
+
+/* THIRD PANEL */
+
+.footer-panel-3 {
+    height: 169px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ft3{
+    color: rgb(168, 161, 161);
+    font-size: 0.90rem;
+    
+    
+}
+
+.footer-panel-3 p {
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 0.75rem;
+    
+}
+
+.panel-3-head{
+   padding-left: 20px;
+   margin-left: 30px;
+   
+}
+
+.footer-panel-3 a {
+    margin-top: 0px;
+}
+
+
+/* FOURTH PANEL */
+
+.footer-panel-4{
+    height: 70px;
+    background-color: #172337;
+    
+}
+
+
+.panel-4-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+#panel-4-text{
+    color: white;
+}
